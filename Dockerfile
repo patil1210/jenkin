@@ -5,6 +5,6 @@ FROM nginx:latest
 COPY index.html /usr/share/nginx/html/
 
 # Expose port 80 to access the web server
-EXPOSE 81
+EXPOSE 80
 
 
